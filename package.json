@@ -11,7 +11,10 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "start": "set debug=* && ts-node-dev --respawn --inspect --transpile-only ./src/index.ts"
+    "start": "set debug=* && ts-node-dev --respawn --inspect --transpile-only ./src/index.ts",
+    "start:particular": "set debug=* && ts-node-dev --respawn --inspect --transpile-only ./src/particular.ts",
+    "start:antd": "set debug=* && ts-node-dev --respawn --inspect --transpile-only ./src/antd.ts",
+    "start:check": "set debug=* && ts-node-dev --respawn --inspect --transpile-only ./src/check-files.ts"
   },
   "dependencies": {
     "circular-json": "^0.4.0",
